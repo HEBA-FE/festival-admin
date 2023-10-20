@@ -10,16 +10,14 @@
   height: 100vh;
 }
 
-.line-right {
-  border-right: 0.2rem solid #d9d9d9;
-  height: 100vh;
-  width: 75%;
+.bottom-line {
+  border-bottom: 0.3rem solid #d9d9d9;
+  margin-top: 4%;
 }
 
 .admin_header {
-  border-bottom: 0.3rem solid #d9d9d9;
-  width: 100%;
   float: left;
+  width: 75%;
 }
 
 .main-title {
@@ -43,19 +41,31 @@
   margin-top: 1.5%;
 }
 
-.aside_title {
-  margin-top: 0;
-  margin-right: 5rem;
+.title-alarm {
   float: right;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 25%;
+}
+
+.title-notice {
+  float: right;
+  color: #000;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 900;
+  margin-right: 30%;
+  margin-bottom: 1%;
+  padding: 2%;
 }
 
 .admin_nav {
   margin-top: 1rem;
-  width: 100%;
   float: left;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 75%;
 }
 
 .info_table {
@@ -86,7 +96,7 @@
 }
 
 .admin_container {
-  width: 100%;
+  width: 75%;
   float: left;
 }
 
@@ -115,7 +125,7 @@
 
 .admin-footer {
   margin-top: 68vh;
-  width: 100%;
+  width: 75%;
   float: left;
 }
 
