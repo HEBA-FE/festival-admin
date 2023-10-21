@@ -30,26 +30,9 @@ function App() {
     return `${hour} : ${minute} : ${second} ${period}`;
   };
 
-  const [notifications, setNotifications] = useState([]); // 알림을 저장할 상태
-
-  // 새로운 알림이 도착했을 때 호출되는 함수
-  const handleNewNotification = () => {
-    const newNotification = {
-      id: new Date().getTime(),
-      message: "새로운 알림이 도착했습니다!",
-    };
-    setNotifications([...notifications, newNotification]);
-  };
-
-  // 알림을 닫는 함수
-  const closeNotification = (id) => {
-    setNotifications(
-      notifications.filter((notification) => notification.id !== id)
-    );
-  };
-
   return (
     <div className="admin_body">
+      <div class="v-line"></div>
       <header>
         <div class="admin_header">
           <div class="main-title">
